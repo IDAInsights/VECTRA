@@ -1584,10 +1584,11 @@ function initHeroTriangle() {
     <polygon points="270,34 80,388 460,388" fill="url(#hGradLeft)"/>
     <polygon points="270,34 80,388 460,388" fill="url(#hGradRight)"/>
 
-    <!-- Zona democrática — diamante con vértices lat. en perímetro -->
-    <polygon points="270,120 175,210 270,300 365,210"
-      fill="rgba(74,144,217,0.07)" stroke="rgba(74,144,217,0.40)"
-      stroke-width="1" stroke-dasharray="5 3"/>
+    <polygon points="270,87 243,167 270,246 297,167"
+     fill="rgba(74,144,217,0.07)"
+     stroke="rgba(74,144,217,0.40)"
+     stroke-width="1"
+     stroke-dasharray="5 3"/>
 
     <!-- Labels internos -->
     <text x="270" y="114" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="10" fill="#A8A7A2" letter-spacing="0.07em">LIBERALISMO</text>
