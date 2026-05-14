@@ -1599,45 +1599,99 @@ function initHeroTriangle() {
     <text x="375" y="214" text-anchor="start" font-family="DM Sans,sans-serif" font-size="9" fill="#6B6A65">Derecha</text>
 
     <!-- Puntos de muestra -->
-    <!-- Somalia: Casi en la cima (IAE 8) -->
-      <circle cx="275" cy="62" r="5" fill="#4A90D9" fill-opacity="0.9"/>
-      <text x="283" y="66" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Somalia</text>
-
-      <!-- Suiza: Democracia liberal (IAE 28, IUEe -8) -->
-      <circle cx="258" cy="133" r="5" fill="#2E86C1" fill-opacity="0.9"/>
-      <text x="266" y="137" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Suiza</text>
-
-      <!-- EEUU: Sesgo identitario-moderado (IAE 30, IUEe 18) -->
-      <circle cx="295" cy="140" r="5" fill="#2874A6" fill-opacity="0.9"/>
-      <text x="303" y="144" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">EEUU</text>
-
-      <!-- Alemania: Democracia social (IAE 35, IUEe -10) -->
-      <circle cx="256" cy="158" r="5" fill="#3498DB" fill-opacity="0.9"/>
-      <text x="264" y="162" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Alemania</text>
-
-      <!-- Japón: Democracia conservadora (IAE 38, IUEe 14) -->
-      <circle cx="291" cy="168" r="5" fill="#21618C" fill-opacity="0.9"/>
-      <text x="299" y="172" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Japón</text>
-
-      <!-- Argentina 2026: Menor alcance estatal, orientación liberal -->
-      <circle cx="280" cy="170" r="5" fill="#00AEEF" fill-opacity="0.9"/>
-      <text x="248" y="152" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38" font-weight="bold">Argentina</text>
-
-      <!-- Rusia: Autoritarismo híbrido (IAE 68, IUEe 45) -->
-      <circle cx="347" cy="275" r="5" fill="#922B21" fill-opacity="0.9"/>
-      <text x="355" y="279" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Rusia</text>
-
-      <!-- Cuba: Polo igualitario (IAE 75, IUEe -58) -->
-      <circle cx="163" cy="300" r="5" fill="#C0392B" fill-opacity="0.9"/>
-      <text x="171" y="304" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Cuba</text>
-
-      <!-- Irán: Teocrático-identitario (IAE 74, IUEe 52) -->
-      <circle cx="361" cy="296" r="5" fill="#7B241C" fill-opacity="0.9"/>
-      <text x="369" y="300" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Irán</text>
-
-      <!-- China: Polo igualitario-estatista (IAE 82, IUEe -35) -->
-      <circle cx="202" cy="324" r="5" fill="#A93226" fill-opacity="0.9"/>
-      <text x="210" y="328" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">China</text>
+    <!-- ========================= -->
+         <!-- CASOS ORIGINALES -->
+         <!-- ========================= -->
+         
+         <!-- Somalia -->
+         <circle cx="272" cy="62" r="5" fill="#4A90D9" fill-opacity="0.9"/>
+         <text x="280" y="66" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Somalia</text>
+         
+         <!-- Suiza -->
+         <circle cx="258" cy="133" r="5" fill="#2E86C1" fill-opacity="0.9"/>
+         <text x="266" y="137" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Suiza</text>
+         
+         <!-- Canadá -->
+         <circle cx="262" cy="150" r="5" fill="#5DADE2" fill-opacity="0.9"/>
+         <text x="270" y="154" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Canadá</text>
+         
+         <!-- EEUU -->
+         <circle cx="305" cy="168" r="5" fill="#2874A6" fill-opacity="0.9"/>
+         <text x="313" y="172" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">EEUU</text>
+         
+         <!-- Alemania -->
+         <circle cx="255" cy="160" r="5" fill="#3498DB" fill-opacity="0.9"/>
+         <text x="223" y="164" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Alemania</text>
+         
+         <!-- Suecia -->
+         <circle cx="245" cy="172" r="5" fill="#85C1E9" fill-opacity="0.9"/>
+         <text x="205" y="176" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Suecia</text>
+         
+         <!-- Noruega -->
+         <circle cx="252" cy="168" r="5" fill="#7FB3D5" fill-opacity="0.9"/>
+         <text x="260" y="172" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Noruega</text>
+         
+         <!-- Francia -->
+         <circle cx="248" cy="182" r="5" fill="#5499C7" fill-opacity="0.9"/>
+         <text x="210" y="186" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Francia</text>
+         
+         <!-- Japón -->
+         <circle cx="296" cy="178" r="5" fill="#21618C" fill-opacity="0.9"/>
+         <text x="304" y="182" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Japón</text>
+         
+         <!-- Corea del Sur -->
+         <circle cx="288" cy="175" r="5" fill="#2E86C1" fill-opacity="0.9"/>
+         <text x="296" y="179" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Corea Sur</text>
+         
+         <!-- Argentina -->
+         <circle cx="292" cy="170" r="5" fill="#00AEEF" fill-opacity="0.9"/>
+         <line x1="292" y1="170" x2="255" y2="150"
+               stroke="#7A7974" stroke-width="0.8"/>
+         <text x="250" y="148"
+               font-family="DM Sans,sans-serif"
+               font-size="8.5"
+               fill="#3D3C38"
+               font-weight="bold">Argentina</text>
+         
+         <!-- Singapur -->
+         <circle cx="286" cy="195" r="5" fill="#7D3C98" fill-opacity="0.9"/>
+         <text x="294" y="199" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Singapur</text>
+         
+         <!-- Israel -->
+         <circle cx="320" cy="205" r="5" fill="#1F618D" fill-opacity="0.9"/>
+         <text x="328" y="209" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Israel</text>
+         
+         <!-- México -->
+         <circle cx="250" cy="210" r="5" fill="#5499C7" fill-opacity="0.9"/>
+         <text x="258" y="214" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">México</text>
+         
+         <!-- Brasil -->
+         <circle cx="242" cy="220" r="5" fill="#5DADE2" fill-opacity="0.9"/>
+         <text x="250" y="224" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Brasil</text>
+         
+         <!-- India -->
+         <circle cx="314" cy="220" r="5" fill="#2471A3" fill-opacity="0.9"/>
+         <text x="322" y="224" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">India</text>
+         
+         <!-- Turquía -->
+         <circle cx="332" cy="248" r="5" fill="#884EA0" fill-opacity="0.9"/>
+         <text x="340" y="252" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Turquía</text>
+         
+         <!-- Rusia -->
+         <circle cx="347" cy="275" r="5" fill="#922B21" fill-opacity="0.9"/>
+         <text x="355" y="279" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Rusia</text>
+         
+         <!-- Cuba -->
+         <circle cx="163" cy="300" r="5" fill="#C0392B" fill-opacity="0.9"/>
+         <text x="171" y="304" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Cuba</text>
+         
+         <!-- Irán -->
+         <circle cx="361" cy="296" r="5" fill="#7B241C" fill-opacity="0.9"/>
+         <text x="369" y="300" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Irán</text>
+         
+         <!-- China -->
+         <circle cx="228" cy="324" r="5" fill="#A93226" fill-opacity="0.9"/>
+         <text x="236" y="328" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">China</text>
 
     <!-- Vértices -->
     <circle cx="270" cy="34"  r="6" fill="#4A90D9"/>
