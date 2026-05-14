@@ -13,51 +13,132 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --white:        #FAFAF8;
-    --ink:          #1A1916;
-    --ink-2:        #3D3C38;
-    --ink-3:        #6B6A65;
-    --ink-4:        #A8A7A2;
-    --surface:      #F3F1EC;
-    --surface-2:    #E8E5DF;
-    --blue:         #1B5C9E;
-    --blue-light:   #D6E7F7;
-    --blue-dark:    #0c3a6e;
-    --amber:        #B5600A;
-    --amber-light:  #FAE8CC;
-    --amber-dark:   #7a3a00;
-    --teal:         #0F6E5A;
-    --teal-light:   #D0EFE7;
-    --teal-dark:    #0a4035;
-    --c-iaec-bg:    #0F6E5A;
-    --c-iaee-bg:    #5E3FA0;
-    --radius:       8px;
-    --radius-lg:    16px;
-    --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
-  }
+  --white:        #0A0A0A;
+  --ink:          #FAFAF8;
+  --ink-2:        #A8A7A2;
+  --ink-3:        #6B6A65;
+  --surface:      #121212;
+  --surface-2:    #1A1A1A;
+  --surface-3:    #222222;
+  --blue:         #06b6d4;
+  --blue-light:   rgba(6, 182, 212, 0.1);
+  --radius-md:    8px;
+}
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --white:        #1C1B18;
-      --ink:          #F0EDE6;
-      --ink-2:        #D4D1CA;
-      --ink-3:        #9C9A93;
-      --ink-4:        #5C5B57;
-      --surface:      #252420;
-      --surface-2:    #2E2D29;
-      --blue:         #85b7eb;
-      --blue-light:   #0c3060;
-      --blue-dark:    #b5d4f4;
-      --amber:        #e8a04a;
-      --amber-light:  #4a2e04;
-      --amber-dark:   #fac775;
-      --teal:         #4db89a;
-      --teal-light:   #0a2e25;
-      --teal-dark:    #a0ddd0;
-      --c-iaec-bg:    #2a9e7a;
-      --c-iaee-bg:    #8a67c8;
-    }
-  }
+body {
+  background-color: var(--white);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  padding: 20px;
+}
+
+/* Contenedor del Test */
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--surface-3);
+  border-radius: var(--radius-md);
+  padding: 32px;
+}
+
+/* Progreso */
+.progress-bar {
+  height: 4px;
+  background: var(--surface-3);
+  margin-bottom: 24px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--blue);
+  box-shadow: 0 0 10px var(--blue);
+  transition: width 0.3s ease;
+}
+
+/* Preguntas */
+h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  color: var(--ink);
+}
+
+/* Opciones (Botones) */
+.options-grid {
+  display: grid;
+  gap: 12px;
+}
+
+button.option-btn {
+  background: var(--surface-2);
+  border: 1px solid var(--surface-3);
+  color: var(--ink-2);
+  padding: 16px;
+  text-align: left;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+button.option-btn:hover {
+  border-color: var(--blue);
+  color: var(--ink);
+  background: var(--blue-light);
+}
+
+button.option-btn.selected {
+  border-color: var(--blue);
+  background: var(--blue-light);
+  color: var(--blue);
+}
+
+/* Resultado */
+.result-box {
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.score-display {
+  font-size: 3rem;
+  font-family: 'DM Serif Display', serif;
+  color: var(--blue);
+  margin: 16px 0;
+}
+
+.note {
+  font-size: 0.8rem;
+  color: var(--ink-3);
+  border-top: 1px solid var(--surface-3);
+  margin-top: 24px;
+  padding-top: 16px;
+}
+
+/* Acciones */
+.result-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.primary-btn {
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: bold;
+  cursor: pointer;
+  flex: 1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
   html, body { background: var(--white); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.6; min-height: 100vh; }
   body { padding: 1.5rem 1.25rem 2.5rem; }
