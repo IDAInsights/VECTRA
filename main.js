@@ -1599,14 +1599,45 @@ function initHeroTriangle() {
     <text x="375" y="214" text-anchor="start" font-family="DM Sans,sans-serif" font-size="9" fill="#6B6A65">Derecha</text>
 
     <!-- Puntos de muestra -->
-    <circle cx="255" cy="137" r="5" fill="#1B5C9E" fill-opacity="0.9"/>
-    <text x="263" y="141" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Noruega</text>
-    <circle cx="272" cy="160" r="5" fill="#2874A6" fill-opacity="0.9"/>
-    <text x="280" y="164" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">EE.UU.</text>
-    <circle cx="253" cy="234" r="5" fill="#C0392B" fill-opacity="0.9"/>
-    <text x="261" y="238" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">China</text>
-    <circle cx="196" cy="268" r="5" fill="#E07B20" fill-opacity="0.9"/>
-    <text x="204" y="272" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Venezuela</text>
+    <!-- Somalia: Casi en la cima (IAE 8) -->
+      <circle cx="275" cy="62" r="5" fill="#4A90D9" fill-opacity="0.9"/>
+      <text x="283" y="66" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Somalia</text>
+
+      <!-- Suiza: Democracia liberal (IAE 28, IUEe -8) -->
+      <circle cx="258" cy="133" r="5" fill="#2E86C1" fill-opacity="0.9"/>
+      <text x="266" y="137" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Suiza</text>
+
+      <!-- EEUU: Sesgo identitario-moderado (IAE 30, IUEe 18) -->
+      <circle cx="295" cy="140" r="5" fill="#2874A6" fill-opacity="0.9"/>
+      <text x="303" y="144" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">EEUU</text>
+
+      <!-- Alemania: Democracia social (IAE 35, IUEe -10) -->
+      <circle cx="256" cy="158" r="5" fill="#3498DB" fill-opacity="0.9"/>
+      <text x="264" y="162" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Alemania</text>
+
+      <!-- Japón: Democracia conservadora (IAE 38, IUEe 14) -->
+      <circle cx="291" cy="168" r="5" fill="#21618C" fill-opacity="0.9"/>
+      <text x="299" y="172" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Japón</text>
+
+      <!-- Argentina 2026: Menor alcance estatal, orientación liberal -->
+      <circle cx="280" cy="170" r="5" fill="#00AEEF" fill-opacity="0.9"/>
+      <text x="248" y="152" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38" font-weight="bold">Argentina</text>
+
+      <!-- Rusia: Autoritarismo híbrido (IAE 68, IUEe 45) -->
+      <circle cx="347" cy="275" r="5" fill="#922B21" fill-opacity="0.9"/>
+      <text x="355" y="279" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Rusia</text>
+
+      <!-- Cuba: Polo igualitario (IAE 75, IUEe -58) -->
+      <circle cx="163" cy="300" r="5" fill="#C0392B" fill-opacity="0.9"/>
+      <text x="171" y="304" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Cuba</text>
+
+      <!-- Irán: Teocrático-identitario (IAE 74, IUEe 52) -->
+      <circle cx="361" cy="296" r="5" fill="#7B241C" fill-opacity="0.9"/>
+      <text x="369" y="300" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Irán</text>
+
+      <!-- China: Polo igualitario-estatista (IAE 82, IUEe -35) -->
+      <circle cx="202" cy="324" r="5" fill="#A93226" fill-opacity="0.9"/>
+      <text x="210" y="328" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">China</text>
 
     <!-- Vértices -->
     <circle cx="270" cy="34"  r="6" fill="#4A90D9"/>
