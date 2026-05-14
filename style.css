@@ -208,3 +208,108 @@ a:hover {
   }
   .hero h1 { font-size: 2.5rem; }
 }
+
+/* ═══════════════════════════════════════════════════
+   VECTRA — ESTILOS PARA EL CUESTIONARIO DINÁMICO
+   Aplicar en style.css para impactar en #quizLayout
+   ═══════════════════════════════════════════════════ */
+
+/* Contenedor principal del cuestionario */
+.quiz-layout {
+  background: var(--surface);
+  border: 1px solid var(--surface-3);
+  border-radius: var(--radius-lg);
+  padding: var(--gap-md);
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--gap-md);
+  align-items: start;
+}
+
+/* El panel donde aparecen las preguntas */
+.quiz-panel {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Estilo para las preguntas (inyectadas por JS) */
+.quiz-panel h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: var(--gap-sm);
+  color: var(--ink);
+}
+
+/* Botones de opciones del cuestionario */
+.quiz-option-btn {
+  background: var(--surface-2) !important;
+  border: 1px solid var(--surface-3) !important;
+  color: var(--ink-2) !important;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  border-radius: var(--radius-md);
+  text-align: left;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  width: 100%;
+}
+
+.quiz-option-btn:hover {
+  border-color: var(--blue) !important;
+  background: var(--blue-light) !important;
+  color: var(--ink) !important;
+}
+
+/* El mini-triángulo de feedback a la derecha */
+.quiz-triangle-wrap {
+  background: var(--surface-2);
+  padding: var(--gap-sm);
+  border-radius: var(--radius-md);
+  text-align: center;
+  border: 1px solid var(--surface-3);
+}
+
+.quiz-tri-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-3);
+  margin-bottom: var(--gap-sm);
+}
+
+/* Etiquetas de los vértices (Anarquía, Comunismo, Fascismo) */
+.quiz-tri-vertex {
+  font-size: 10px;
+  fill: var(--ink-3);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Barra de progreso */
+.quiz-live-progress {
+  background: var(--surface-3);
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.quiz-live-bar {
+  background: var(--blue);
+  box-shadow: 0 0 10px var(--blue);
+  height: 100%;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Píldoras de IAE e IUE */
+.quiz-live-pill {
+  background: var(--surface-3);
+  color: var(--blue);
+  font-weight: bold;
+  font-family: monospace;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
