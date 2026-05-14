@@ -1611,10 +1611,6 @@ function initHeroTriangle() {
          <circle cx="258" cy="133" r="5" fill="#2E86C1" fill-opacity="0.9"/>
          <text x="266" y="137" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Suiza</text>
          
-         <!-- Canadá -->
-         <circle cx="262" cy="150" r="5" fill="#5DADE2" fill-opacity="0.9"/>
-         <text x="270" y="154" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Canadá</text>
-         
          <!-- EEUU -->
          <circle cx="305" cy="168" r="5" fill="#2874A6" fill-opacity="0.9"/>
          <text x="313" y="172" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">EEUU</text>
@@ -1622,14 +1618,6 @@ function initHeroTriangle() {
          <!-- Alemania -->
          <circle cx="255" cy="160" r="5" fill="#3498DB" fill-opacity="0.9"/>
          <text x="223" y="164" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Alemania</text>
-         
-         <!-- Suecia -->
-         <circle cx="245" cy="172" r="5" fill="#85C1E9" fill-opacity="0.9"/>
-         <text x="205" y="176" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Suecia</text>
-         
-         <!-- Noruega -->
-         <circle cx="252" cy="168" r="5" fill="#7FB3D5" fill-opacity="0.9"/>
-         <text x="260" y="172" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Noruega</text>
          
          <!-- Francia -->
          <circle cx="248" cy="182" r="5" fill="#5499C7" fill-opacity="0.9"/>
@@ -1639,31 +1627,9 @@ function initHeroTriangle() {
          <circle cx="296" cy="178" r="5" fill="#21618C" fill-opacity="0.9"/>
          <text x="304" y="182" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Japón</text>
          
-         <!-- Corea del Sur -->
-         <circle cx="288" cy="175" r="5" fill="#2E86C1" fill-opacity="0.9"/>
-         <text x="296" y="179" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Corea Sur</text>
-         
-         <!-- Argentina -->
-         <circle cx="292" cy="170" r="5" fill="#00AEEF" fill-opacity="0.9"/>
-         <line x1="292" y1="170" x2="255" y2="150"
-               stroke="#7A7974" stroke-width="0.8"/>
-         <text x="250" y="148"
-               font-family="DM Sans,sans-serif"
-               font-size="8.5"
-               fill="#3D3C38"
-               font-weight="bold">Argentina</text>
-         
          <!-- Singapur -->
          <circle cx="286" cy="195" r="5" fill="#7D3C98" fill-opacity="0.9"/>
          <text x="294" y="199" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Singapur</text>
-         
-         <!-- Israel -->
-         <circle cx="320" cy="205" r="5" fill="#1F618D" fill-opacity="0.9"/>
-         <text x="328" y="209" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">Israel</text>
-         
-         <!-- México -->
-         <circle cx="250" cy="210" r="5" fill="#5499C7" fill-opacity="0.9"/>
-         <text x="258" y="214" font-family="DM Sans,sans-serif" font-size="8.5" fill="#3D3C38">México</text>
          
          <!-- Brasil -->
          <circle cx="242" cy="220" r="5" fill="#5DADE2" fill-opacity="0.9"/>
